@@ -1,0 +1,10 @@
+print("Bine ati venit la calculatorul de bacsisuri!")
+total=float(input("Care a fost suma notei de plata? RON "))
+bacsis=int(input("Cat bacsis ai vrea sa dai?(10,12 sau 15?) %"))
+oameni=int(input("La cati oameni se imparte factura? "))
+procentaj = 1+bacsis/100
+
+per_cap = total / oameni
+final=per_cap * procentaj
+final= format(final,".2f")
+print(f"Fiecare persoana ar trebui sa plateasca: {final} RON ")
