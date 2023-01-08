@@ -1,0 +1,9 @@
+height = input("Inaltimea (metri) : ")
+weight = input("Greutatea (kg) : ")
+inaltime= float(height)
+greutate= float(weight)
+
+bmi= greutate/(inaltime **2)
+bmi_nou=int(bmi)
+
+print(bmi_nou)
