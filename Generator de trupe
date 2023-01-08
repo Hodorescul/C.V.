@@ -1,0 +1,4 @@
+print("Bine ati venit la generatorul de trupe")
+carte= input("Ultima carte citata \n")
+produs=input("Ultimul produs cumparat este: \n")
+print("Trupa generata in urma raspunsurilor este:" + carte + " " + produs)
