@@ -1,0 +1,7 @@
+inaltime = input("Spune-ne care este inaltimea ta ")
+inaltime = int(inaltime)
+if(inaltime >= 150):
+    print("Poti sa mergi in Rollercoaster") 
+else:
+    print("Nu poti sa mergi in Rollercoaster")
+    
