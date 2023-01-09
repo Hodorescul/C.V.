@@ -1,0 +1,20 @@
+# Casa de bilete pentru parc de distractii
+
+#inaltime minima de 120CM
+# <12 ani: 5 lei
+# 12-18: 8 lei
+# >=18 ani: 10 lei
+
+inaltime = int(input("Inaltimea este: "))
+
+if(inaltime >= 120):
+    varsta = int(input("Varsta este: "))
+    if(varsta <12):
+        print("Te poti plimba cu rollercoasterul,iar biletul costa 5 lei")
+    elif(varsta >= 12 and varsta <= 18):
+        print("Te poti plimba cu rollercoasterul,biletul costa 8 lei")
+    else:
+        print("Te poti plimba cu rollercoasterul,iar biletul costa 10 lei")
+else:
+    print("Ne pare rau, nu te poti plimba cu rollercoasterul")
+    
