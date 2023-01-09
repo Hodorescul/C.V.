@@ -1,7 +1,7 @@
-inaltime = input("Spune-ne care este inaltimea ta ")
+inaltime = input("Care este inaltime dumneavoastra? ")
 inaltime = int(inaltime)
-if(inaltime >= 150):
-    print("Poti sa mergi in Rollercoaster") 
+inaltime_min = 150
+if(inaltime >= inaltime_min):
+    print("Poti sa mergi in Rollercoaster")
 else:
     print("Nu poti sa mergi in Rollercoaster")
-    
