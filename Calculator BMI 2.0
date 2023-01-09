@@ -1,0 +1,23 @@
+# BMI 2.0
+
+#BMI  < 18,5: subponderali
+#BMI: 18,5 - 25: greutate normala
+#BMI: 25-30: supraponderali
+#BMI: 30-35: obezi
+#BMI: >35: obezi clinic
+
+greutate = float(input("Greutatea dumneavoastra este: "))
+inaltime = float(input("Inaltimea dumneavoastra este: "))
+
+BMI = round(greutate/inaltime**2)
+
+if(BMI<18.5):
+    print(f"BMI este egal cu {BMI} si sunteti subponderal")
+elif(BMI<25):
+    print(f"BMI este egal cu {BMI} si aveti o greutate normala")
+elif(BMI<30):
+    print(f"BMI este egal cu {BMI} si sunteti supraponderal")
+elif(BMI<35):
+    print(f"BMI este egal cu {BMI} si sunteti obez")
+else:
+    print(f"BMI este egal cu {BMI} si sunteti obez clinic")
